@@ -54,10 +54,7 @@ class CreateActionData extends GeneratorCommand
             ["Folder", 'New File', "NameSpace"],
             [[dirname($this->fullPath), $this->fullPath, $this->nameSpace]]
         );*/
-        //        if ($this->confirm("Is this information correct?")) {
         $this->writeActionData();
-        //            return true;
-        //        }
         //$this->info("Bekor qilindi");
         return true;
     }
