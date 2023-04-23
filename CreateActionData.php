@@ -198,7 +198,7 @@ class CreateActionData extends GeneratorCommand
      */
     protected function getStub(): string
     {
-        return $this->resolveStubPath('/stubs/action-data.stub');
+        return $this->resolveStubPath('/action-data.stub');
     }
 
     /**
@@ -208,7 +208,7 @@ class CreateActionData extends GeneratorCommand
      */
     protected function getStubTmp(): string
     {
-        return $this->resolveStubPath('/stubs/rules-tmp.stub');
+        return $this->resolveStubPath('/rules-tmp.stub');
     }
 
     /**
