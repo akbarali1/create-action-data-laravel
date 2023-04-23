@@ -5,6 +5,16 @@ namespace App\Console\Commands;
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputOption;
 
+/**
+ * Created by PhpStorm.
+ * Filename: BackupController.php
+ * User: Акбарали
+ * Date: 19/04/2023
+ * Time: 17:45
+ * Github: https://github.com/akbarali1
+ * Telegram: @akbar_aka
+ * E-mail: me@akbarali.uz
+ */
 class CreateActionData extends GeneratorCommand
 {
     /**
