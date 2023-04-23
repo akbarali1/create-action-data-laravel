@@ -124,7 +124,6 @@ class CreateActionData extends GeneratorCommand
         if ($this->rulesArray === false) {
             $this->error("Rules Tmp Not Found");
         }
-        //        $this->rulesArray = json_decode(json_encode($this->rulesArray, JSON_THROW_ON_ERROR), true, 512, JSON_THROW_ON_ERROR);
     }
 
     public function unlinkFile($fileName): void
